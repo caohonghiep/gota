@@ -6,11 +6,11 @@ const config ={
             port: 3001
         },
         auth: {
-            startScript: "services/auth/auth.js",
+            startScript: "server/auth/auth.js",
             port: 3002
         },
         production: {
-            startScript: "services/production/production.js",
+            startScript: "server/production/production.js",
             port: 3003
         }
     },
