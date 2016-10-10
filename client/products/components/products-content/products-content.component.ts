@@ -3,7 +3,7 @@ import {RenderingUIAbstractComponent} from "../../../main/components/rendering-i
 
 @Component({
     selector:'gota-home-content',
-    moduleId :  module.id || __moduleName,
+    moduleId :  module.id ? module.id : __moduleName,
     templateUrl: './products-content.component.html',
     styleUrls: ['./products-content.component.css']
 })

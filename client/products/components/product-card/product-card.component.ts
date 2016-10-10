@@ -3,7 +3,7 @@ import {RenderingUIAbstractComponent} from "../../../main/components/rendering-i
 
 @Component({
     selector:'gota-sidebar',
-    moduleId :  module.id || __moduleName,
+    moduleId :  module.id ? module.id : __moduleName,
     templateUrl: './product-card.component.html',
     styleUrls: ['./product-card.component.css']
 })
