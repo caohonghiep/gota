@@ -10,7 +10,6 @@
     background-color: #000;
     opacity: 0.5;
     z-index: 11;
-    transition: left 1s, opacity 0.5s;
 }
 
 .categories-sidebar-content{
